@@ -1,7 +1,7 @@
 <header class="p-3 mb-3 d-flex flex-wrap justify-content-left navbar navbar-expand-lg navbar-light">
     <!-- <nav class="navbar navbar-expand-lg"> -->
     <div class="container">
-    <a class="col-lg-2 navbar-brand" href="{{ route('home') }}">
+    <a class="col-lg-2 navbar-brand" href="{{ route('index') }}">
         <img class="header_logo" src="img/nsilogo.png" alt="">
     </a>
     <div class="col-lg-4 offset-lg-2 d5 d-block d-lg-none">

@@ -16,9 +16,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('site/home');
-})->name('home');
+})->name('index');
 
-Auth::routes(['register' => 'false']);
+Auth::routes(['register' => 'false', 'home' => 'false']);
 
 Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('/', function () {
